@@ -1,0 +1,240 @@
+body{
+/* font-family: 'Merriweather Sans', sans-serif; */
+font-family: 'Open Sans', sans-serif;
+/* font-family: 'Quicksand', sans-serif; */
+}
+/* Navigation bar on the article page */
+.article-page-navbar{
+  padding: 0 10% 0 10%;
+  position:fixed;
+  z-index:1;
+  background-color: #42240c;
+}
+.logo{
+  font-size: 30px;
+  color:white;
+}
+.logo:hover{
+  text-decoration: none;
+  color:white;
+}
+.nav-link{
+  font-size:14px;
+  color:white;
+}
+.nav-link:hover{
+  color:white;
+}
+.collapsing-button {
+  border-width:0;
+}
+.fa-bars{
+  background-color: #42240c;
+  color:white;
+}
+
+/* Article content represents the complete column that has HEADER BODY AND CONNECT WITH ME */
+
+.article-content{
+  margin-top:12.5%;
+  margin-left: 17%;
+  margin-right:17%;
+}
+
+/* Inside Article Content */
+.article-date{
+  font-size: 16px;
+  color:brown;
+}
+.article-tag{
+  font-size: 14px;
+  color:brown;
+}
+.article-header{
+  margin-top:3%;
+  color:#42240c;
+  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+}
+.article-body{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: lighter;
+  font-size: 16px;
+  line-height: 2;
+  margin-top:7%;
+  margin-bottom:7%;
+}
+.article-connectwithme{
+  margin-left: 17%;
+  margin-right:17%;
+  text-align: center;
+  margin-bottom:5%;
+  color:brown;
+  font-weight: bold;
+  font-size:16px;
+}
+.connecticons{
+  margin-left: 0.5%;
+  color:brown;
+}
+.handcrafterbyme{
+  color:white;
+  background-color: #42240c;
+  text-align: center;
+  padding:0.5% 0 0.5% 0;
+  margin-top: 5%;
+}
+
+/* Media Queries start here */
+
+/* 1st Media query on screen < 576px */
+@media (max-width: 576px) {
+    .article-page-navbar{
+      padding: 0% 2% 1% 2%;
+      position:fixed;
+      z-index:1;
+      background-color: #42240c;
+    }
+    .logo{
+      font-size: 20px;
+    }
+
+    .article-content{
+      margin-top:25%;
+      margin-left: 8%;
+      margin-right:8%;
+    }
+
+    /* Inside Article Content */
+    .article-date{
+      font-size: 12px;
+    }
+    .article-header{
+      margin-top:3%;
+      font-size:20px;
+    }
+    .article-tag{
+      font-size: 12px;
+    }
+    .article-body{
+      font-size:14px;
+    }
+
+    .article-connectwithme{
+      text-align: center;
+      margin-left: 8%;
+      margin-right:8%;
+    }
+    .connecticons{
+      margin-left:0.5%;
+      font-size:12px;
+    }
+    .handcrafterbyme{
+      font-size:12px;
+      color:white;
+      background-color: #42240c;
+      text-align: center;
+      padding:0.5% 0 0.5% 0;
+      margin-top: 5%;
+    }
+
+   }
+
+/* 2nd Media Query for screen b/w 576px and 768px */
+@media (min-width:576.0000000000000001px) and (max-width:768px) {
+  .article-page-navbar{
+    padding: 0% 2% 1% 2%;
+    position:fixed;
+    z-index:1;
+    background-color: #42240c;
+  }
+    .logo{
+      font-size: 25px;
+    }
+
+    .article-content{
+      margin-top:20%;
+      margin-left: 8%;
+      margin-right:8%;
+    }
+
+    /* Inside Article Content */
+    .article-date{
+      font-size: 14px;
+    }
+    .article-header{
+      margin-top:3%;
+      font-size:24px;
+    }
+    .article-body{
+      font-size:16px;
+    }
+
+    .article-connectwithme{
+      text-align: center;
+      margin-left: 8%;
+      margin-right:8%;
+    }
+    .connecticons{
+      margin-left:0.5%;
+      font-size:14px;
+    }
+    .handcrafterbyme{
+      font-size:14px;
+      color:white;
+      background-color: #42240c;
+      text-align: center;
+      padding:0.5% 0 0.5% 0;
+      margin-top: 5%;
+    }
+
+
+}
+
+/* 3rd Media Query for screen b/2 768 and 992px */
+@media (min-width:768.0000000000001px) and (max-width:991.99999999999999px) {
+  .article-page-navbar{
+    padding: 0% 2% 1% 2%;
+    position:fixed;
+    z-index:1;
+    background-color: #42240c;
+  }
+    .logo{
+      font-size: 28px;
+    }
+
+    .article-content{
+      margin-top:16%;
+      margin-left: 8%;
+      margin-right:8%;
+    }
+
+    .article-date{
+      font-size: 16px;
+    }
+    .article-header{
+      margin-top:3%;
+      font-size:28px;
+    }
+    .article-body{
+      font-size:16px;
+    }
+
+    .article-connectwithme{
+      text-align: center;
+      margin-left: 8%;
+      margin-right:8%;
+    }
+    .connecticons{
+      margin-left:0.5%;
+      font-size:16px;
+    }
+    .handcrafterbyme{
+      font-size:16px;
+      color:white;
+      background-color: #42240c;
+      text-align: center;
+      padding:0.5% 0 0.5% 0;
+      margin-top: 5%;
+    }
+}

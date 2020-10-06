@@ -1,0 +1,346 @@
+body{
+font-family: 'Open Sans', sans-serif;
+/* font-family: 'Quicksand', sans-serif; */
+}
+
+/* MAIN PAGE NAVIGATION BAR */
+.main-page-navbar{
+  padding: 0 10% 0 10%;
+  position:fixed;
+  top:0;
+  z-index:1;
+  background-color: #42240c;
+}
+
+.logo{
+  font-size: 30px;
+  color:white;
+}
+.logo:hover{
+  text-decoration: none;
+  color:white;
+}
+.dot{
+  color:white;
+}
+.fa-bars{
+  color:white;
+}
+
+/* MAIN PAGE BODY (the container that holds two columns 1. About me brief 2. The Post headers and desc)*/
+.main-page-content{
+  margin-top:10%;
+  padding:0 8%;
+}
+/* MAIN PAGE BODY - Left Side 1. About me Brief */
+.main-page-content-left{
+  padding-top:0.5%;
+  text-align:center;
+  position:fixed;
+  width:20%;
+}
+.main-page-content-left .profile-pic{
+  height:50%;
+  width:50%;
+  border-radius: 100%;
+}
+.main-page-content-left .brief{
+  font-size:13px;
+  text-align:left;
+}
+.main-page-content-left .brief-header{
+  font-size:15px;
+  color:#42240c;
+}
+.main-page-content-left .brief-links{
+  color:brown;
+  font-size:13px;
+}
+.main-page-content-left .brief-links:hover{
+  color:brown;
+
+}
+.fab{
+  margin-left:0.5rem;
+}
+.brief-header-visibility{
+  visibility: hidden;
+}
+
+/* MAIN PAGE BODY - 2. Right Side (The Blog POST HEADERS and the DESCRIPTION) */
+.main-page-content-right{
+  padding-top:1%;
+  margin-left:25%;
+}
+
+/* The Actual Blog Posts start here for the 2.Right Side column*/
+.blog-main-post{
+  padding-left:12%;
+  padding-right:0;
+  padding-bottom:2rem;
+}
+
+.blog-header-links{
+  color:#42240c;
+  font-weight: bolder;
+  text-decoration: underline;
+}
+.blog-header-links:hover{
+  color:brown;
+}
+.blog-main-post-description{
+  font-weight:lighter;
+}
+.article-date{
+  font-size: 14px;
+  color:brown;
+}
+.blog-article-tag{
+  font-size: 14px;
+  color:brown;
+  margin-left:5%;
+}
+.continue-link{
+  font-size: 16px;
+  color:brown;
+  font-weight: bold;
+}
+.handcrafterbyme{
+  color:white;
+  background-color: #42240c;
+  text-align: center;
+  padding:0.5% 0 0.5% 0;
+  margin-top: 15%;
+  visibility: hidden;
+}
+
+/* Media Queries start here - totally 4 of them */
+/* 1st Media Query for screens < 576px */
+@media (max-width: 576px) {
+  .collapse.dont-collapse-sm {
+    background-color:white;
+    padding-bottom:100%;
+    width:auto;
+    height:auto;
+    z-index:99999;
+  }
+  .collapsing-button{
+    background-color: #42240c;
+    border-width: 0;
+    color:white;
+  }
+  .main-page-content-left .profile-pic{
+    height:25%;
+    width:25%;
+    border-radius: 100%;
+  }
+  .brief-header-visibility{
+    visibility: visible;
+    font-size: 14px;
+  }
+
+
+  .main-page-navbar{
+    padding: 0% 2% 1% 2%;
+    position:fixed;
+    top:0;
+    z-index:1;
+    background-color: #42240c;
+  }
+    .logo{
+      font-size: 20px;
+    }
+    .main-page-content{
+      margin-top:20%;
+      margin-left:4%;
+      margin-right:4%;
+    }
+
+    .main-page-content-right{
+      padding-top:6%;
+      margin:0%;
+    }
+    .blog-main-post{
+      padding-left:0;
+      padding-right:0;
+      padding-bottom:2rem;
+    }
+    .blog-header-links{
+      color:brown;
+      font-size:20px;
+    }
+    .blog-main-post-description{
+      font-size:14px;
+    }
+    .continue-link{
+      font-size:14px;
+      font-weight: bold;
+    }
+    .handcrafterbyme{
+      font-size:14px;
+      color:white;
+      background-color: #42240c;
+      text-align: center;
+      padding:0.5% 0 0.5% 0;
+      margin-top: 5%;
+      visibility: visible;
+    }
+  }
+
+/* 2nd Media Query for screens b/w 576px and 768px*/
+@media (min-width: 576.00000000000000001px) and (max-width: 767.9999999999999px) {
+
+  .collapse.dont-collapse-sm {
+    background-color:white;
+    padding-bottom:100%;
+    margin:0;
+    width:auto;
+    height:auto;
+    z-index:1;
+  }
+  .collapsing-button{
+    background-color: #42240c;
+    border-width: 0;
+    color:white;
+  }
+  .main-page-content-left .profile-pic{
+    height:25%;
+    width:25%;
+    border-radius: 100%;
+  }
+  .brief-header-visibility{
+    visibility: visible;
+  }
+
+
+  .main-page-navbar{
+    padding: 0% 2% 1% 2%;
+    position:fixed;
+    top:0;
+    z-index:1;
+    background-color: #42240c;
+  }
+    .logo{
+      font-size: 24px;
+    }
+    .main-page-content{
+      margin-top:17%;
+      margin-left:4%;
+      margin-right:4%;
+    }
+
+    .main-page-content-right{
+      padding-top:6%;
+      margin:0%;
+    }
+    .blog-main-post{
+      padding-left:0;
+      padding-right:0;
+      padding-bottom:2rem;
+    }
+    .blog-header-links{
+      color:brown;
+      font-size:24px;
+    }
+    .blog-main-post-description{
+      font-size:16px;
+    }
+    .continue-link{
+      font-size:16px;
+      font-weight: bold;
+    }
+    .handcrafterbyme{
+      font-size:16px;
+      color:white;
+      background-color: #42240c;
+      text-align: center;
+      padding:0.5% 0 0.5% 0;
+      margin-top: 5%;
+      visibility: visible;
+    }
+  }
+/* 3rd Media Query for screens > 768px and 992px*/
+@media (min-width: 768px) and (max-width: 991.999999999999999px){
+  .collapse.dont-collapse-sm {
+    background-color:white;
+    padding-bottom:100%;
+    margin:0;
+    width:auto;
+    height:auto;
+    z-index:1;
+  }
+  .collapsing-button{
+    background-color: #42240c;
+    border-width: 0;
+    color:white;
+  }
+  .main-page-content-left .profile-pic{
+    height:25%;
+    width:25%;
+    border-radius: 100%;
+  }
+  .brief-header-visibility{
+    visibility: visible;
+  }
+  /* .main-page-content-left{
+    padding-top:0%;
+    text-align:center;
+    position:fixed;
+    width:20%;
+  } */
+  .main-page-navbar{
+    padding: 0% 2% 1% 2%;
+    position:fixed;
+    top:0;
+    z-index:1;
+    background-color: #42240c;
+  }
+    .logo{
+      font-size: 28px;
+    }
+    .main-page-content{
+      margin-top:12%;
+      margin-left:4%;
+      margin-right:4%;
+    }
+
+    .main-page-content-right{
+      padding-top:6%;
+      margin:0%;
+    }
+    .blog-main-post{
+      padding-left:0;
+      padding-right:0;
+      padding-bottom:2rem;
+    }
+    .blog-header-links{
+      color:brown;
+      font-size:28px;
+    }
+    .blog-main-post-description{
+      font-size:16.5px;
+    }
+    .continue-link{
+      font-size:16.5px;
+      font-weight: bold;
+    }
+    .handcrafterbyme{
+      font-size:16.5px;
+      color:white;
+      background-color: #42240c;
+      text-align: center;
+      padding:0.5% 0 0.5% 0;
+      margin-top: 15%;
+      visibility: visible;
+    }
+}
+@media (min-width: 991.1px) {
+  .collapse.dont-collapse-sm {
+    display: block;
+    height: auto !important;
+    visibility: visible;
+  }
+  .collapsing-button{
+    visibility: hidden;
+  }
+}
