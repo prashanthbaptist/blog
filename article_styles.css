@@ -54,11 +54,9 @@ font-family: 'Open Sans', sans-serif;
   margin-top:3%;
   color:#42240c;
   font-weight: bold;
-  font-family: 'Open Sans', sans-serif;
 }
 .article-body{
-  font-family: 'Open Sans', sans-serif;
-  font-weight: lighter;
+  font-weight: normal;
   font-size: 16px;
   line-height: 2;
   margin-top:7%;
@@ -90,7 +88,7 @@ font-family: 'Open Sans', sans-serif;
 /* 1st Media query on screen < 576px */
 @media (max-width: 576px) {
     .article-page-navbar{
-      padding: 0% 2% 1% 2%;
+      padding: 0 2% 1% 2%;
       position:fixed;
       z-index:1;
       background-color: #42240c;
@@ -143,7 +141,7 @@ font-family: 'Open Sans', sans-serif;
 /* 2nd Media Query for screen b/w 576px and 768px */
 @media (min-width:576.0000000000000001px) and (max-width:768px) {
   .article-page-navbar{
-    padding: 0% 2% 1% 2%;
+    padding: 0 2% 1% 2%;
     position:fixed;
     z-index:1;
     background-color: #42240c;
@@ -194,7 +192,7 @@ font-family: 'Open Sans', sans-serif;
 /* 3rd Media Query for screen b/2 768 and 992px */
 @media (min-width:768.0000000000001px) and (max-width:991.99999999999999px) {
   .article-page-navbar{
-    padding: 0% 2% 1% 2%;
+    padding: 0 2% 1% 2%;
     position:fixed;
     z-index:1;
     background-color: #42240c;
