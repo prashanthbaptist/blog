@@ -69,7 +69,7 @@ font-family: 'Open Sans', sans-serif;
 
 /* MAIN PAGE BODY - 2. Right Side (The Blog POST HEADERS and the DESCRIPTION) */
 .main-page-content-right{
-  padding-top:1%;
+  padding-top:0.5%;
   margin-left:25%;
 }
 
@@ -77,7 +77,7 @@ font-family: 'Open Sans', sans-serif;
 .blog-main-post{
   padding-left:12%;
   padding-right:0;
-  padding-bottom:2rem;
+  padding-bottom:3rem;
 }
 
 .blog-header-links{
@@ -89,7 +89,7 @@ font-family: 'Open Sans', sans-serif;
   color:brown;
 }
 .blog-main-post-description{
-  font-weight:lighter;
+  font-weight:normal;
 }
 .article-date{
   font-size: 14px;
@@ -141,7 +141,7 @@ font-family: 'Open Sans', sans-serif;
 
 
   .main-page-navbar{
-    padding: 0% 2% 1% 2%;
+    padding: 0 2% 1% 2%;
     position:fixed;
     top:0;
     z-index:1;
@@ -158,7 +158,7 @@ font-family: 'Open Sans', sans-serif;
 
     .main-page-content-right{
       padding-top:6%;
-      margin:0%;
+      margin:0;
     }
     .blog-main-post{
       padding-left:0;
@@ -214,7 +214,7 @@ font-family: 'Open Sans', sans-serif;
 
 
   .main-page-navbar{
-    padding: 0% 2% 1% 2%;
+    padding: 0 2% 1% 2%;
     position:fixed;
     top:0;
     z-index:1;
@@ -231,7 +231,7 @@ font-family: 'Open Sans', sans-serif;
 
     .main-page-content-right{
       padding-top:6%;
-      margin:0%;
+      margin:0;
     }
     .blog-main-post{
       padding-left:0;
@@ -289,7 +289,7 @@ font-family: 'Open Sans', sans-serif;
     width:20%;
   } */
   .main-page-navbar{
-    padding: 0% 2% 1% 2%;
+    padding: 0 2% 1% 2%;
     position:fixed;
     top:0;
     z-index:1;
@@ -306,7 +306,7 @@ font-family: 'Open Sans', sans-serif;
 
     .main-page-content-right{
       padding-top:6%;
-      margin:0%;
+      margin:0;
     }
     .blog-main-post{
       padding-left:0;
