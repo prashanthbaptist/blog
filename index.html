@@ -9,17 +9,19 @@
   <link rel="stylesheet" href="index_styles.css">
   <link rel="icon" href="images/indexprofile.jpg" class="icon-img">
   <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
   <script src="https://kit.fontawesome.com/25cbf1f95d.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
   <!-- Navigation Bar - Media Queries written to collapse one DIV under the toggle button -->
+  <!-- data-toggle="collapse" data-target="#aboutmecollapse" aria-controls="main-page-content-left" aria-expanded="false" aria-label="Toggle navigation" -->
   <section id="MAIN PAGE NAVIGATION">
 
     <div class="container-fluid main-page-navbar">
       <nav class="navbar navbar-expand-lg navbar-dark">
         <a href="index.html" class="logo">prashanth<span class="dot">.</span>baptist</a>
-        <button class="navbar-toggler collapsing-button" type="button" data-toggle="collapse" data-target="#aboutmecollapse" aria-controls="main-page-content-left" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler collapsing-button" onclick="openNav()" type="button">
           <i class="fas fa-bars"></i>
         </button>
       </nav>
@@ -36,30 +38,27 @@
         <!-- The Actual container name : MAIN-PAGE-CONTENT -->
         <div class="container-fluid main-page-content">
           <div class="row">
-            <!-- 1. Left Side Content(ABOUT ME BRIEF) of the Main Body -->
+    <!-- 1. Left Side Content(ABOUT ME BRIEF) of the Main Body -->
             <div class="collapse dont-collapse-sm main-page-content-left col-lg-3" id="aboutmecollapse">
               <img src="images/indexprofile.jpg" class="profile-pic"><br><br>
-              <p class="brief"><b class="brief-header">What I Do! </b><br>Building Digital Products <a href="https://www.rb.com/" alt="reckit benckiser" class="brief-links" target="_blank">@RB</a></p>
-              <p class="brief"><b class="brief-header">What I Did!</b><br> Strategy & Analytics <a href="https://www.mckinsey.com/" alt="mckinsey" class="brief-links" target="_blank">@Mckinsey</a><br>
+              <p class="brief"><b class="brief-header">What I Do! </b><br>Build Digital Products <a href="https://www.rb.com/" alt="reckit benckiser" class="brief-links" target="_blank">@RB</a></p>
+              <p class="brief"><b class="brief-header">What I Did!</b><br> Strategy & Data Sciences <a href="https://www.mckinsey.com/" alt="mckinsey" class="brief-links" target="_blank">@Mckinsey</a><br>
                 Data Sciences <a href="https://www.flipkart.com/" alt="flipkart" class="brief-links" target="_blank">@Flipkart</a>,<a href="https://www.mu-sigma.com/" alt="musigma" class="brief-links" target="_blank">@MuSigma</a><br>
               </p>
               <p class="brief">
-                <b class="brief-header">In This Blog</b><br>My professional experiences at the intersection of data, product and marketing led growth. I also write my musings on things I read !
+                <b class="brief-header">In This Blog</b><br>My experience in building digital products, driving product and marketing led growth, growth analytics, machine & deep learning. Also write about things I read.
               </p>
               <p class="brief"><b class="brief-header">Connect with me</b><br>
-                <a href="mailto@b.prashanth88@zohomail.in" alt="Connect with me on Mail" title="Mail Connection " target="_blank" class="brief-links"><i class="fas fa-envelope-open-text fa-lg"></i></a>
+                <a href="mailto:b.prashanth88@zohomail.in" alt="Connect with me on Mail" title="Mail Connection " target="_blank" class="brief-links"><i class="fas fa-envelope-open-text fa-lg"></i></a>
                 <a href="https://www.linkedin.com/in/prashanthbaptist/" alt="Connect with me on LinkedIn" title="LinkedIn Connection " target="_blank" class="brief-links"><i class="fab fa-linkedin-in fa-lg"></i></a>
-                <a href="" alt="Connect with me on Instagram" title="Instagram Connection " target="_blank" class="brief-links"><i class="fab fa-instagram fa-lg"></i></a>
+                <a href="https://www.instagram.com/bprashanth88/" alt="Connect with me on Instagram" title="Instagram Connection " target="_blank" class="brief-links"><i class="fab fa-instagram fa-lg"></i></a>
               </p>
               <p class="brief">
                 <b class="brief-header">More</b><br>
                 <a href="#" alt="about-me" class="brief-links" target="_blank">About Me!</a><br>
               </p>
-              <p class="brief">
-                <a href="index.html" alt="indexpage" class="brief-links brief-header-visibility"><b>Return To Blog</b></a>
-              </p>
             </div>
-            <!-- 2. Right Side Content(Blog post head and desc) of the Main Body -->
+    <!-- 2. Right Side Content(Blog post head and desc) of the Main Body -->
             <div class="main-page-content-right col-lg-9">
               <!-- 1st Article -->
 
@@ -68,7 +67,7 @@
 
                 <p class="blog-main-post-description">
                   <i>"Ichigo Ichie"</i> is the Japanese idea that, what we experience in the "now" will never repeat itself in the same way ever again. We human beings spend a lot of time dwelling either in the past or in the future. Emotions drift us from the present. Hector and Francesc explore in this book how to be in the present, stay calm, exercise control and remain focussed in this information age.
-                  <br><a href="nameofarticle.html" class="continue-link">Continue Reading</a>
+                   <br><a href="nameofarticle.html" class="continue-link"> -> More</a>
                 </p>
                 <span class="article-date">05 Oct, 2020</span>
                 <span class= "blog-article-tag"><i class="fas fa-tag "></i> Book Review</span>
@@ -148,6 +147,7 @@
 
   </section>
 
+<!-- Footer Section - Is made visible only for smaller screens -->
   <div class="container-fluid">
     <div class="row">
       <div class="col handcrafterbyme">
@@ -156,12 +156,53 @@
     </div>
   </div>
 
+<!-- Code specifically written for smaller screen sizes. DIV occupies screen on toggle Button Click -->
+  <div id="myNav" class="overlay">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <div class="overlay-content">
+      <p>
+        <b class="onclick-mainheader" style="font-size: 30px; color:brown;">A Little About Me! </b><br><br>
+      </p>
+
+      <p>
+        <b class="onclick-header">What I Do </b>
+        <span class="onclick-description">Build Digital Products <a href="https://www.rb.com/" alt="reckit benckiser" class="brief-links" target="_blank">@RB</a></p></span>
+      </p>
+      <p>
+        <b class="onclick-header">What I Did</b>
+        <span class="onclick-description">Strategy & Data Sciences <a href="https://www.mckinsey.com/" alt="mckinsey" class="brief-links" target="_blank">@Mckinsey</a><br></span>
+        <span class="onclick-description">Data Sciences <a href="https://www.flipkart.com/" alt="flipkart" class="brief-links" target="_blank">@Flipkart</a>,<a href="https://www.mu-sigma.com/" alt="musigma" class="brief-links" target="_blank">@MuSigma</a></span>
+      </p>
+      <p>
+        <b class="onclick-header">In this blog,</b>
+        <span class="onclick-description"> I write about my experience in building digital products, driving product and marketing led growth, growth analytics, machine & deep learning @ work.
+      </p>
+      <p>
+        <b class="onclick-header">Connect with Me!</b>
+        <a href="mailto:b.prashanth88@zohomail.in" alt="Connect with me on Mail" title="Mail Connection " target="_blank" class="brief-links"><i class="fas fa-envelope-open-text fa-lg"></i></a>
+        <a href="https://www.linkedin.com/in/prashanthbaptist/" alt="Connect with me on LinkedIn" title="LinkedIn Connection " target="_blank" class="brief-links"><i class="fab fa-linkedin-in fa-lg"></i></a>
+        <a href="https://www.instagram.com/bprashanth88/" alt="Connect with me on Instagram" title="Instagram Connection " target="_blank" class="brief-links"><i class="fab fa-instagram fa-lg"></i></a>
+      </p>
+
+    </div>
+  </div>
 
 
+
+<!-- All the Script Sources go in here, unless it is very specific and small -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  <script>
+    function openNav() {
+      document.getElementById("myNav").style.height = "100%";
+    }
 
+    function closeNav() {
+      document.getElementById("myNav").style.height = "0%";
+    }
+  </script>
+<!-- End of Script -->
 </body>
 
 </html>
