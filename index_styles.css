@@ -146,6 +146,7 @@ body {
 /* Media Queries start here - totally 4 of them */
 /* 1st Media Query for screens < 576px */
 @media (max-width: 576px) {
+
   .overlay {
     height: 0;
     width: 100%;
@@ -154,12 +155,12 @@ body {
     top: 0;
     left: 0;
     background-color: #fff2e5;
-    overflow-y: hidden;
+    overflow-y:hidden;
     transition: 0.5s;
   }
 
   .overlay-content {
-    position: absolute;
+    position: relative;
     top: 10%;
     left: 8%;
     text-align: left;
