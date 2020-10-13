@@ -1,10 +1,7 @@
-body {
-  background-color: #fff2e5;
-}
 
 /* Navigation bar on the article page */
 .article-page-navbar {
-  padding: 0 6% 0 6%;
+  padding: 0 5% 0 5%;
   position: fixed;
   z-index: 1;
   background-color: #4a171e;
@@ -30,7 +27,7 @@ body {
 }
 
 .collapsing-button {
-  border-width: 0;
+  border-width:0;
 }
 
 .fa-bars {
@@ -49,14 +46,12 @@ body {
 .article-date {
   font-size: 16px;
   color: #4a171e;
-  font-family: 'Merriweather', serif;
 }
 
 .article-header {
   margin-top: 3%;
   color: #4a171e;
   font-weight: bold;
-  font-family: 'Merriweather', serif;
 }
 
 .article-body {
@@ -90,7 +85,6 @@ body {
   color: #4a171e;
   font-weight: bold;
   font-size: 16px;
-  font-family: 'Merriweather', serif;
 }
 
 .connecticons {
