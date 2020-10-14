@@ -4,7 +4,7 @@
   padding: 0 5% 0 5%;
   position: fixed;
   z-index: 1;
-  background-color: #4a171e;
+  background-color: black;
 }
 
 .logo {
@@ -31,7 +31,7 @@
 }
 
 .fa-bars {
-  background-color: #4a171e;
+  background-color: black;
   color: white;
 }
 
@@ -45,12 +45,12 @@
 /* Inside Article Content */
 .article-date {
   font-size: 16px;
-  color: #4a171e;
+  color: brown;
 }
 
 .article-header {
   margin-top: 3%;
-  color: #4a171e;
+  color: black;
   font-weight: bold;
 }
 
@@ -94,7 +94,7 @@
 
 .handcrafterbyme {
   color: white;
-  background-color: #4a171e;
+  background-color: black;
   text-align: center;
   padding: 0.5% 0 0.5% 0;
   margin-top: 5%;
@@ -107,7 +107,7 @@
     padding: 0 2% 1% 2%;
     position: fixed;
     z-index: 1;
-    background-color: #4a171e;
+    background-color: black;
   }
 
   .logo {
@@ -166,7 +166,7 @@
   .handcrafterbyme {
     font-size: 12px;
     color: white;
-    background-color: #4a171e;
+    background-color: black;
     text-align: center;
     padding: 0.5% 0 0.5% 0;
     margin-top: 5%;
@@ -180,7 +180,7 @@
     padding: 0 2% 1% 2%;
     position: fixed;
     z-index: 1;
-    background-color: #4a171e;
+    background-color: black;
   }
 
   .logo {
@@ -235,7 +235,7 @@
   .handcrafterbyme {
     font-size: 14px;
     color: white;
-    background-color: #4a171e;
+    background-color: black;
     text-align: center;
     padding: 0.5% 0 0.5% 0;
     margin-top: 5%;
@@ -249,7 +249,7 @@
     padding: 0 2% 1% 2%;
     position: fixed;
     z-index: 1;
-    background-color: #42240c;
+    background-color: black;
   }
 
   .logo {
@@ -303,7 +303,7 @@
   .handcrafterbyme {
     font-size: 16px;
     color: white;
-    background-color: #4a171e;
+    background-color: black;
     text-align: center;
     padding: 0.5% 0 0.5% 0;
     margin-top: 5%;
