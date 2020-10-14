@@ -1,4 +1,4 @@
-/*Setting background color for the BODY*/
+
 
 /* MAIN PAGE NAVIGATION BAR */
 .main-page-navbar {
@@ -6,7 +6,7 @@
   position: fixed;
   top: 0;
   z-index: 1;
-  background-color: #4a171e;
+  background-color: black;
 }
 
 .logo {
@@ -79,13 +79,12 @@
   margin-left: 1rem;
 }
 
-.brief-header-visibility {
-  visibility: hidden;
-}
 
 /* -------------MAIN PAGE BODY - 2. Right Side (The Blog POST HEADERS and the DESCRIPTION) --------------*/
+
 .main-page-content-right {
   padding-top: 0.5%;
+  padding-bottom:0;
   margin-left: 25%;
 }
 
@@ -98,50 +97,41 @@
 }
 
 .blog-main-post-header {
-  padding-bottom: 1rem;
+  font-size: 20px;
+  padding-bottom: 0.5rem;
 }
 
 .blog-header-links {
-  color:#4a171e;
+  color:black;
   font-weight: bolder;
-  text-decoration: underline;
+  /* text-decoration: underline; */
 }
 
 .blog-header-links:hover {
-  color: brown;
+  color: #4a171e;
 }
 
 .blog-main-post-description {
   font-weight: 300;
-  font-size: 16px;
+  font-size: 15px;
 }
 
-.article-date {
+.blog-main-post .article-date {
   font-size: 12px;
-  color: black;
-  font-weight: bold;
+  color: brown;
 }
 
-.blog-article-tag {
+/* .blog-article-tag {
+  padding-top: 0.2rem;
   font-size: 12px;
-  color: black;
-  font-weight: bold;
+  color: brown;
   margin-left: 2%;
-}
+} */
 
 .continue-link {
-  font-size: 16px;
+  font-size: 14px;
   color: #ee4e34;
   font-weight: bold;
-}
-
-/* LAST BOTTOM MOST FOOTER OF THE MAIN PAGE */
-.handcrafterbyme {
-  color: white;
-  background-color: #4a171e;
-  text-align: center;
-  margin-top: 0;
-  visibility:hidden;
 }
 
 /* Media Queries start here - totally 4 of them */
@@ -156,7 +146,8 @@
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #fff2e5;
+    /* background-color: #fff2e5; */
+    background-color: lightgrey;
     overflow-y:scroll;
     overflow-x:hidden;
     transition: 0.5s;
@@ -229,7 +220,7 @@
     position: fixed;
     top: 0;
     z-index: 1;
-    background-color: #4a171e;
+    background-color: black;
   }
 
   .logo {
@@ -238,10 +229,12 @@
 
   #mobile-intro{
     margin-top:8%;
+    text-align: center;
     padding-top:8%;
     padding-bottom:4%;
     visibility:visible;
-    background-color:#fff2e5;
+    font-size: 15px;
+    background-color:lightgrey;
   }
   .mobile-intro-text{
     margin-left: 4%;
@@ -267,23 +260,18 @@
   }
 
   .blog-header-links {
-    color: #4a171e;
-    font-size: 20px;
+    color: black;
+    font-size: 19px;
   }
 
   .blog-main-post-description {
-    font-size: 14px;
-  }
-
-  .continue-link {
-    font-size: 14px;
-    font-weight: bold;
+    font-size: 15px;
   }
 
   .handcrafterbyme {
     font-size: 14px;
     color: white;
-    background-color: #4a171e;
+    background-color: black;
     text-align: center;
     padding: 0.5% 0 0.5% 0;
     margin-top: 5%;
@@ -302,7 +290,8 @@
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #fff2e5;
+    /* background-color: #fff2e5; */
+    background-color: lightgrey;
     overflow-y: scroll;
     overflow-x:hidden;
     transition: 0.5s;
@@ -366,7 +355,7 @@
     position: fixed;
     top: 0;
     z-index: 1;
-    background-color: #4a171e;
+    background-color: black;
   }
 
   .logo {
@@ -377,8 +366,10 @@
     margin-top:8%;
     padding-top:7%;
     padding-bottom:4%;
+    text-align: center;
+    font-size: 22px;
     visibility:visible;
-    background-color:#fff2e5;
+    background-color:lightgrey;
 
   }
   .mobile-intro-text{
@@ -404,23 +395,19 @@
   }
 
   .blog-header-links {
-    color: #4a171e;
-    font-size: 24px;
+    color: black;
+    font-size: 19px;
   }
 
   .blog-main-post-description {
     font-size: 15px;
   }
 
-  .continue-link {
-    font-size: 15px;
-    font-weight: bold;
-  }
 
   .handcrafterbyme {
     font-size: 15px;
     color: white;
-    background-color: #42240c;
+    background-color: black;
     text-align: center;
     padding: 0.5% 0 0.5% 0;
     margin-top: 10%;
@@ -440,7 +427,7 @@
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #fff2e5;
+    background-color: lightgrey;
     overflow-y: scroll;
     overflow-x:hidden;
     transition: 0.5s;
@@ -506,7 +493,7 @@
     position: fixed;
     top: 0;
     z-index: 1;
-    background-color: #4a171e;
+    background-color: black;
   }
 
   .logo {
@@ -517,8 +504,10 @@
     margin-top:7%;
     padding-top:7%;
     padding-bottom:4%;
+    text-align: center;
+    font-size: 26px;
     visibility:visible;
-    background-color:#fff2e5;
+    background-color:lightgrey;
 
   }
   .mobile-intro-text{
@@ -544,23 +533,18 @@
   }
 
   .blog-header-links {
-    color: #4a171e;
-    font-size: 28px;
+    color: black;
+    font-size: 19px;
   }
 
   .blog-main-post-description {
-    font-size: 16px;
-  }
-
-  .continue-link {
-    font-size: 16px;
-    font-weight: bold;
+    font-size: 15px;
   }
 
   .handcrafterbyme {
     font-size: 16px;
     color: white;
-    background-color: #4a171e;
+    background-color: black;
     text-align: center;
     padding: 0.5% 0 0.5% 0;
     margin-top: 15%;
@@ -583,6 +567,9 @@
   }
 
   .overlay {
+    visibility: hidden;
+  }
+  .handcrafterbyme{
     visibility: hidden;
   }
 }
