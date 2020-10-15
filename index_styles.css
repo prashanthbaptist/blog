@@ -6,7 +6,7 @@
   position: fixed;
   top: 0;
   z-index: 1;
-  background-color: black;
+  background-color: #83142c;
 }
 
 .logo {
@@ -217,7 +217,7 @@
     position: fixed;
     top: 0;
     z-index: 1;
-    background-color: black;
+    background-color: #83142c;
   }
 
   .logo {
@@ -268,7 +268,7 @@
   .handcrafterbyme {
     font-size: 14px;
     color: white;
-    background-color: black;
+    background-color: #83142c;
     text-align: center;
     padding: 0.5% 0 0.5% 0;
     margin-top: 5%;
@@ -350,7 +350,7 @@
     position: fixed;
     top: 0;
     z-index: 1;
-    background-color: black;
+    background-color: #83142c;
   }
 
   .logo {
@@ -402,7 +402,7 @@
   .handcrafterbyme {
     font-size: 15px;
     color: white;
-    background-color: black;
+    background-color: #83142c;
     text-align: center;
     padding: 0.5% 0 0.5% 0;
     margin-top: 10%;
@@ -485,7 +485,7 @@
     position: fixed;
     top: 0;
     z-index: 1;
-    background-color: black;
+    background-color: #83142c;
   }
 
   .logo {
@@ -536,7 +536,7 @@
   .handcrafterbyme {
     font-size: 16px;
     color: white;
-    background-color: black;
+    background-color: #83142c;
     text-align: center;
     padding: 0.5% 0 0.5% 0;
     margin-top: 15%;
