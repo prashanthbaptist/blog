@@ -60,7 +60,7 @@
 }
 
 .main-page-content-left .brief-header {
-  font-size: 16px;
+  font-size: 14px;
   color: #4a171e;
   color:black;
   font-weight: bolder;
@@ -68,7 +68,7 @@
 
 .main-page-content-left .brief-links {
   color: brown;
-  font-size: 13px;
+  font-size: 12px;
 }
 
 .main-page-content-left .brief-links:hover {
@@ -163,16 +163,13 @@
     padding-right:3%;
   }
 
-  .onclick-mainheader{
-    padding-left:4%;
-  }
 
   .overlay .onclick-header {
     font-size: 16px;
     font-weight: bold;
     color: black;
     display: block;
-    padding-left:4%;
+    padding-left:0;
     transition: 0.3s;
   }
 
@@ -181,7 +178,7 @@
     color: black;
     display: inline-block;
     transition: 0.3s;
-    padding-left:4%;
+    padding-left:0;
     padding-right:12%;
   }
 
@@ -194,7 +191,7 @@
   }
 
   .fas{
-    padding-left:4%;
+    padding-left:0;
   }
   .fab {
     margin-left: 1rem;
@@ -261,11 +258,11 @@
 
   .blog-header-links {
     color: black;
-    font-size: 19px;
+    font-size: 15.5px;
   }
 
   .blog-main-post-description {
-    font-size: 15px;
+    font-size: 13px;
   }
 
   .handcrafterbyme {
@@ -304,16 +301,14 @@
     text-align: left;
     margin-top: 10px;
   }
-  .onclick-mainheader{
-    padding-left:4%;
-  }
+
   .overlay .onclick-header {
     font-size: 18px;
     font-weight: bold;
     color: black;
     display: block;
     transition: 0.3s;
-    padding-left:4%;
+    padding-left:0;
   }
 
   .overlay .onclick-description {
@@ -321,7 +316,7 @@
     color: black;
     display: block;
     transition: 0.3s;
-    padding-left:4%;
+    padding-left:0;
     padding-right:15%;
   }
 
@@ -334,7 +329,7 @@
   }
 
   .fas{
-    padding-left:4%;
+    padding-left:0;
   }
 
   .fab {
@@ -441,9 +436,6 @@
     margin-top: 10px;
   }
 
-  .onclick-mainheader{
-    padding-left:4%;
-  }
 
   .overlay .onclick-header {
     font-size: 20px;
@@ -451,7 +443,7 @@
     color: black;
     display: block;
     transition: 0.3s;
-    padding-left:4%;
+    padding-left:0;
   }
 
   .overlay .onclick-description {
@@ -459,7 +451,7 @@
     color: black;
     display: block;
     transition: 0.3s;
-    padding-left:4%;
+    padding-left:0;
     padding-right: 20%;
   }
 
@@ -472,7 +464,7 @@
   }
 
   .fas{
-    padding-left:4%;
+    padding-left:0;
   }
 
   .fab {
